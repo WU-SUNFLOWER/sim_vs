@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sim_vs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="global.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="newargs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Malloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="any_int.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="token.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tokenarray.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="text.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stream.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="compare.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lang.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pass1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pass2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pass3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="percentages.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="properties.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_run.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="runs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fname.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="idf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ForEachFile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utf8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="newargs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Malloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="any_int.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="token.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tokenarray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="compare.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lang.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pass1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pass2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pass3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="percentages.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="properties.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="add_run.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="runs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fname.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="idf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ForEachFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="settings.h">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="system.par">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="debug.par">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="sortlist.bdy">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
