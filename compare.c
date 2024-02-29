@@ -107,8 +107,8 @@ static void compare_texts(void) {
 
 static void
 compare_one_on_one(
-	int n,				/* index of text to be compared */
-	int m,				/* index of text to be compared to */
+	int n,				/* 被查重的新文本 */
+	int m,				/* 已有的文本 */
 	struct range *rg		/* pointer to search range */
 ) {
 	const struct text *txt1 = &Text[m];
@@ -179,7 +179,7 @@ first_forward_ref_for(size_t i0, const struct range *rg) {
 }
 
 static size_t
-lcs(	struct text *txt0,		/* text to be compared */
+lcs(	struct text *txt0,		/* 被查重的文本 */
 	size_t i0,			/* starting pos. in txt0 */
 	struct range *rg,		/* search range */
 	/* two output parameters, set if return value > 0: */

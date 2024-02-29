@@ -36,7 +36,7 @@ int Open_Stream(const char* fname) {
 		yyin = fopen(NULLFILE, "r");
 	}
 	//
-	// yystart();
+	yystart();
 	return ok;
 }
 
